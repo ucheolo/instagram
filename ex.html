@@ -2,7 +2,8 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/c3db255fba.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/c3db255fba.js" crossorigin="anonymous">
+        </script>
     </head>
     <body>
         <style>
@@ -37,6 +38,15 @@
                 img{display: block;}
             }
         </style>
+        <script>
+            console.log("test")
+            alert("어때")
+            function numbering(n){
+                for(let i=0; i<n; i++){
+                    console.log(i)
+                }
+            }
+        </script>
         <div class="myGrid">
             <div id="div1">배경1</div>
             <div id="div2">배경2</div>
@@ -58,6 +68,15 @@
             <i class="fa-regular fa-heart"></i>
         </div>
     </div>
-    <p>배경색</p>
+    <input type="button" value="click" onclick="alert('ㅎㅇ')">
+    <p onclick="alert('안녕')">배경색</p>
+    <input type="button" value="버튼" 
+    onclick="
+    for(let i=0; i<5; i++){
+        console.log(i)
+    }
+    "/>
+    <input type="button" value="함수로 버튼"
+    onclick="numbering(7)"/>
     </body>
 </html>
